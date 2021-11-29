@@ -1,0 +1,28 @@
+{
+  "name": "webpack-implementation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mywebc/webpack-implementation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mywebc/webpack-implementation/issues"
+  },
+  "homepage": "https://github.com/mywebc/webpack-implementation#readme",
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/parser": "^7.16.4",
+    "@babel/preset-env": "^7.16.4",
+    "@babel/traverse": "^7.16.3",
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1"
+  }
+}
