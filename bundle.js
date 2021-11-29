@@ -23,7 +23,6 @@ const getModuleInfo = (file) => {
         presets: ["@babel/preset-env"]
     })
     const moduleInfo = { file, deps, code }
-    console.log(moduleInfo)
     return moduleInfo
 }
 
@@ -53,7 +52,6 @@ const parseModules = file => {
             code: moduleInfo.code
         }
     })
-    console.log(depsGraph)
     return depsGraph
 }
 
