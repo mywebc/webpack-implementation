@@ -1,4 +1,5 @@
 const path = require('path')
+const DemoWebpackPlugin = require('./demo-webpack-plugin')
 
 module.exports = {
     mode: 'development',
@@ -20,12 +21,19 @@ module.exports = {
                 test: /\.js$/,
                 loader: 'syncLoader',
                 options: {
-                    message: "this is sync info"
+                    // 将所有var替换为let
+                    message: "let"
                 }
             },
             {
-                loader: 'asyncLoader'
+                loader: 'asyncLoader',
+                options: {
+                    message: "this is async info;"
+                }
             }
         ]
-    }
+    },
+    plugins: [
+        new DemoWebpackPlugin()
+    ]
 }

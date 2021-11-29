@@ -16,7 +16,7 @@
   \********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"add\": () => (/* binding */ add)\n/* harmony export */ });\nconst add = (a, b) => {\n    return a + b\n}\n走上人生颠覆testSyncLoader\n\n//# sourceURL=webpack://webpack-implementation/./src/add.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"test\": () => (/* binding */ test)\n/* harmony export */ });\nconst test = (a, b, c) => {\n    let aa = 1 + a;\n    let bb = 2 + b;\n    let cc = 3 + c;\n    console.log(aa, bb, cc)\n}\n\n\n//# sourceURL=webpack://webpack-implementation/./src/add.js?");
 
 /***/ }),
 
@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _add_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./add.js */ \"./src/add.js\");\n/* harmony import */ var _minus_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./minus.js */ \"./src/minus.js\");\n\n\n\nconst sum = (0,_add_js__WEBPACK_IMPORTED_MODULE_0__.add)(1, 2);\nconst division = (0,_minus_js__WEBPACK_IMPORTED_MODULE_1__.minus)(2, 1);走上人生颠覆testSyncLoader\n\n//# sourceURL=webpack://webpack-implementation/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _add_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./add.js */ \"./src/add.js\");\n/* harmony import */ var _minus_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./minus.js */ \"./src/minus.js\");\n\n\n\n(0,_add_js__WEBPACK_IMPORTED_MODULE_0__.test)(1, 2, 3)\nconst division = (0,_minus_js__WEBPACK_IMPORTED_MODULE_1__.minus)(2, 1);\n\n//# sourceURL=webpack://webpack-implementation/./src/index.js?");
 
 /***/ }),
 
@@ -36,7 +36,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _add
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"minus\": () => (/* binding */ minus)\n/* harmony export */ });\nconst minus = (a, b) => {\n    return a - b\n}\n走上人生颠覆testSyncLoader\n\n//# sourceURL=webpack://webpack-implementation/./src/minus.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"minus\": () => (/* binding */ minus)\n/* harmony export */ });\nconst minus = (a, b) => {\n    return a - b;\n}\n\n\n//# sourceURL=webpack://webpack-implementation/./src/minus.js?");
 
 /***/ })
 

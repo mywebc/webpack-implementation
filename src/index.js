@@ -1,5 +1,5 @@
-import { add } from './add.js'
+import { test } from './add.js'
 import { minus } from './minus.js'
 
-const sum = add(1, 2);
+test(1, 2, 3)
 const division = minus(2, 1);

@@ -6,6 +6,7 @@ const loaderUtils = require('loader-utils')
 
 module.exports = function (source) {
     const options = loaderUtils.getOptions(this);
-    source += options.message;
-    this.callback(null, source);
+    // this.callback(null, source);
+    return source.replace(/var/g, options.message)
+
 }
